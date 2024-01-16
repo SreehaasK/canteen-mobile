@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lg2"
+    tools:context=".StudentLogin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="LOGIN"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:gravity="center"
+        android:layout_margin="25dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/sle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="157dp"
+        android:background="#30ffffff"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="#009688"
+        android:textColorHint="#3F51B5" />
+
+    <EditText
+        android:id="@+id/slp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="256dp"
+        android:background="#30ffffff"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+
+        android:padding="20dp"
+        android:textColor="#009688"
+        android:textColorHint="#3F51B5" />
+
+    <Button
+        android:id="@+id/sllogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:padding="25dp"
+        android:text="Login" />
+</RelativeLayout>
